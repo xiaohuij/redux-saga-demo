@@ -1,4 +1,4 @@
-const initialState = {payload: '@@REA/INIT'}
+const initialState = {payload: '@@SAGA/INIT'}
 
 const asyncReducers = (state = initialState, action) => {
   console.info(action.type)
