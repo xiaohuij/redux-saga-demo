@@ -6,8 +6,6 @@ const raceReducers = (state = initialState, action) => {
     case 'UPDATE_RACE':
     case 'UPDATE_RACE_WINNER':
       return {...initialState, ...action.payload}
-    case 'START_RACE':
-      return {...initialState}
     default:
       return {...state}
   }

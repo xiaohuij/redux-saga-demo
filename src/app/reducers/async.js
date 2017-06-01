@@ -9,7 +9,6 @@ const asyncReducers = (state = initialState, action) => {
     case 'ASYNC_FETCH_INITIAL':
     case 'ASYNC_FETCH_SUCCESS':
     case 'ASYNC_FETCH_ERROR':
-      return {...state, payload: action.payload}
     case 'ASYNC_TEST_SAGA':
       return {...state, payload: action.payload}
     default:

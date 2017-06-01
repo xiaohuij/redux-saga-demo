@@ -24,7 +24,7 @@ export const asyncFetchInitial = () => {
 export const asyncFetchSuccess = (dummyOutput) => {
   return {
     type: 'ASYNC_FETCH_SUCCESS',
-    payload: 'ASYNC_FETCH_SUCCESS '.concat(dummyOutput)
+    payload: 'HELLO '.concat(dummyOutput)
   }
 }
 
